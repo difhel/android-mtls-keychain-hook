@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="io.github.difhel.mtlshook">
+    <application android:label="mTLS KeyChain hook" android:hasCode="true" android:allowBackup="false">
+        <meta-data android:name="xposedmodule" android:value="true" />
+        <meta-data android:name="xposeddescription" android:value="Answers TLS client certificate requests naming the lab CA with a KeyChain key, for whitelisted apps." />
+        <meta-data android:name="xposedminversion" android:value="93" />
+        <meta-data android:name="xposedscope" android:resource="@array/xposed_scope" />
+    </application>
+</manifest>
