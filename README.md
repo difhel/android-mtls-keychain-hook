@@ -1,7 +1,7 @@
 # android-mtls-keychain-hook
 
-Companion code for the article *"I Hated Running a VPN on Android, So I Built My Own Zero Trust
-Infra Instead"*: make **unmodified** Android apps and Chrome present a client certificate (mTLS)
+Companion code for the article *[I Hated Running a VPN on Android, So I Built My Own Zero Trust
+Infra Instead](https://difhel.dev/en/blog/zero-trust-beyond-vpn)*: make **unmodified** Android apps and Chrome present a client certificate (mTLS)
 from the system KeyChain, without a VPN.
 
 - `module/`: an Xposed module (legacy API; runs on LSPosed / Vector).
